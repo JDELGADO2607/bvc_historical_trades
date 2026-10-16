@@ -1,0 +1,852 @@
+{
+  "group": "renta_fija",
+  "count": 94,
+  "instruments": [
+    {
+      "ticker": "Q4",
+      "name": "Q4",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_subscription",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4002WZ",
+      "name": "Q4002WZ",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4002YN",
+      "name": "Q4002YN",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4003MB",
+      "name": "Q4003MB",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4003NI",
+      "name": "Q4003NI",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4003WL",
+      "name": "Q4003WL",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4003YA",
+      "name": "Q4003YA",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4003YJ",
+      "name": "Q4003YJ",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4003YX",
+      "name": "Q4003YX",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4003Z0",
+      "name": "Q4003Z0",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40040Y",
+      "name": "Q40040Y",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40041K",
+      "name": "Q40041K",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40041O",
+      "name": "Q40041O",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40042F",
+      "name": "Q40042F",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40043F",
+      "name": "Q40043F",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004AG",
+      "name": "Q4004AG",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004CK",
+      "name": "Q4004CK",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004PS",
+      "name": "Q4004PS",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004Q6",
+      "name": "Q4004Q6",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004Q9",
+      "name": "Q4004Q9",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004RY",
+      "name": "Q4004RY",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004WK",
+      "name": "Q4004WK",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004XB",
+      "name": "Q4004XB",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004YX",
+      "name": "Q4004YX",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004Z0",
+      "name": "Q4004Z0",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004Z3",
+      "name": "Q4004Z3",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q4004ZA",
+      "name": "Q4004ZA",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400507",
+      "name": "Q400507",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40050M",
+      "name": "Q40050M",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40050S",
+      "name": "Q40050S",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40051E",
+      "name": "Q40051E",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40051W",
+      "name": "Q40051W",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40051Y",
+      "name": "Q40051Y",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400527",
+      "name": "Q400527",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40052A",
+      "name": "Q40052A",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40052B",
+      "name": "Q40052B",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40052C",
+      "name": "Q40052C",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40052I",
+      "name": "Q40052I",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40052N",
+      "name": "Q40052N",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40052O",
+      "name": "Q40052O",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40052Y",
+      "name": "Q40052Y",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40052Z",
+      "name": "Q40052Z",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400535",
+      "name": "Q400535",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400539",
+      "name": "Q400539",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40053G",
+      "name": "Q40053G",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40053O",
+      "name": "Q40053O",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400540",
+      "name": "Q400540",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400545",
+      "name": "Q400545",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400546",
+      "name": "Q400546",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400547",
+      "name": "Q400547",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400548",
+      "name": "Q400548",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400549",
+      "name": "Q400549",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054A",
+      "name": "Q40054A",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054B",
+      "name": "Q40054B",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054C",
+      "name": "Q40054C",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054D",
+      "name": "Q40054D",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054E",
+      "name": "Q40054E",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054F",
+      "name": "Q40054F",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054G",
+      "name": "Q40054G",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054H",
+      "name": "Q40054H",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054I",
+      "name": "Q40054I",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054J",
+      "name": "Q40054J",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054K",
+      "name": "Q40054K",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054L",
+      "name": "Q40054L",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054M",
+      "name": "Q40054M",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054N",
+      "name": "Q40054N",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054O",
+      "name": "Q40054O",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054P",
+      "name": "Q40054P",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054Q",
+      "name": "Q40054Q",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054R",
+      "name": "Q40054R",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054S",
+      "name": "Q40054S",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054T",
+      "name": "Q40054T",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054U",
+      "name": "Q40054U",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054V",
+      "name": "Q40054V",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054W",
+      "name": "Q40054W",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054X",
+      "name": "Q40054X",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054Y",
+      "name": "Q40054Y",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q40054Z",
+      "name": "Q40054Z",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400550",
+      "name": "Q400550",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400551",
+      "name": "Q400551",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400552",
+      "name": "Q400552",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400553",
+      "name": "Q400553",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400555",
+      "name": "Q400555",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "Q400556",
+      "name": "Q400556",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRF8A",
+      "name": "QERRF8A",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQ0",
+      "name": "QERRFQ0",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQ2",
+      "name": "QERRFQ2",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQ4",
+      "name": "QERRFQ4",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQ7",
+      "name": "QERRFQ7",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQ9",
+      "name": "QERRFQ9",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQA",
+      "name": "QERRFQA",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQB",
+      "name": "QERRFQB",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQD",
+      "name": "QERRFQD",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    },
+    {
+      "ticker": "QERRFQS",
+      "name": "QERRFQS",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_fija"
+    }
+  ]
+}

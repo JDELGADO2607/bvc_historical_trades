@@ -1,0 +1,24 @@
+{
+  "group": "divisas",
+  "count": 2,
+  "instruments": [
+    {
+      "ticker": "QVUSDSP",
+      "name": "DOLAR SET-FX SPOT (USD/COP)",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_subscription",
+      "group": "divisas"
+    },
+    {
+      "ticker": "QXUSDND",
+      "name": "DOLAR SET-FX NEXT DAY",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_subscription",
+      "group": "divisas"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "group": "otros",
+  "count": 1,
+  "instruments": [
+    {
+      "ticker": "BVCBOLMEC",
+      "name": "BVCBOLMEC",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_subscription",
+      "group": "otros"
+    }
+  ]
+}

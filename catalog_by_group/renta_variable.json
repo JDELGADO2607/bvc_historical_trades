@@ -1,0 +1,456 @@
+{
+  "group": "renta_variable",
+  "count": 50,
+  "instruments": [
+    {
+      "ticker": "Q7",
+      "name": "Q7",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_subscription",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q700002",
+      "name": "Q700002",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q700003",
+      "name": "Q700003",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q700005",
+      "name": "Q700005",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70000F",
+      "name": "Q70000F",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70000H",
+      "name": "Q70000H",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70000Q",
+      "name": "Q70000Q",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70000S",
+      "name": "Q70000S",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q700010",
+      "name": "Q700010",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q700014",
+      "name": "Q700014",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70001I",
+      "name": "Q70001I",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70001M",
+      "name": "Q70001M",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70001V",
+      "name": "Q70001V",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70001X",
+      "name": "Q70001X",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q700027",
+      "name": "Q700027",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002A",
+      "name": "Q70002A",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002B",
+      "name": "Q70002B",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002G",
+      "name": "Q70002G",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002H",
+      "name": "Q70002H",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002N",
+      "name": "Q70002N",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002P",
+      "name": "Q70002P",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002S",
+      "name": "Q70002S",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002U",
+      "name": "Q70002U",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70002W",
+      "name": "Q70002W",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q700031",
+      "name": "Q700031",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q700039",
+      "name": "Q700039",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003C",
+      "name": "Q70003C",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003D",
+      "name": "Q70003D",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003F",
+      "name": "Q70003F",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003G",
+      "name": "Q70003G",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003I",
+      "name": "Q70003I",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003J",
+      "name": "Q70003J",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003K",
+      "name": "Q70003K",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003L",
+      "name": "Q70003L",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003M",
+      "name": "Q70003M",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003N",
+      "name": "Q70003N",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003O",
+      "name": "Q70003O",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003P",
+      "name": "Q70003P",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003Q",
+      "name": "Q70003Q",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003R",
+      "name": "Q70003R",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003S",
+      "name": "Q70003S",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003T",
+      "name": "Q70003T",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003U",
+      "name": "Q70003U",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003V",
+      "name": "Q70003V",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003W",
+      "name": "Q70003W",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003X",
+      "name": "Q70003X",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "Q70003Y",
+      "name": "Q70003Y",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFCI001",
+      "name": "BOLSA DE VALORES DE COLOMBIA (BVC)",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_subscription",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFCOR02",
+      "name": "CORFICOLCF",
+      "isin": "COJ12PA00048",
+      "market": "EQTY Mod. Continua/Subasta  ",
+      "currency": "",
+      "source": "localStorage",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFECO01",
+      "name": "ECOPETROL (Continua y Subasta)",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_subscription",
+      "group": "renta_variable"
+    }
+  ]
+}

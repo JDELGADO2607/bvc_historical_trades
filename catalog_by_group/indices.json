@@ -1,0 +1,15 @@
+{
+  "group": "indices",
+  "count": 1,
+  "instruments": [
+    {
+      "ticker": "I4IIBR",
+      "name": "INDICADOR BANCARIO DE REFERENCIA (IBR)",
+      "isin": "",
+      "market": "",
+      "currency": "COP",
+      "source": "websocket_log",
+      "group": "indices"
+    }
+  ]
+}
