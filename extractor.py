@@ -19,8 +19,10 @@ import sys
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
+
+COLOMBIA_TZ = timezone(timedelta(hours=-5))
 
 logging.basicConfig(
     level=logging.INFO,
@@ -296,9 +298,9 @@ def main():
     # 2. Authenticate
     session_id = authenticate()
 
-    # 3. Determine dates to extract
+    # 3. Determine dates to extract (always in Colombia Time)
     dates_to_extract: List[datetime] = []
-    today = datetime.now()
+    today = datetime.now(COLOMBIA_TZ)
 
     if args.daily:
         # If Saturday or Sunday, rollback to Friday
