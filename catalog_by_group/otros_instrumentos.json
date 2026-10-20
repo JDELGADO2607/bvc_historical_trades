@@ -1,0 +1,61 @@
+{
+  "group": "otros_instrumentos",
+  "count": 5,
+  "instruments": [
+    {
+      "ticker": "QGGX001",
+      "nemotecnico": "GXTESCOL",
+      "name": "Global X TES Colombia ETF",
+      "isin": "",
+      "market": "Otros instrumentos",
+      "currency": "COP",
+      "tipo": "Fondo Bursátil (ETF)",
+      "sector": "ETF Renta Fija Local",
+      "group": "otros_instrumentos"
+    },
+    {
+      "ticker": "QGHCO01",
+      "nemotecnico": "HCOLSEL",
+      "name": "Global X Colombia Select ETF",
+      "isin": "",
+      "market": "Otros instrumentos",
+      "currency": "COP",
+      "tipo": "Fondo Bursátil (ETF)",
+      "sector": "ETF Renta Variable Colombia",
+      "group": "otros_instrumentos"
+    },
+    {
+      "ticker": "QGICO01",
+      "nemotecnico": "ICOLCAP",
+      "name": "iShares MSCI COLCAP ETF",
+      "isin": "",
+      "market": "Otros instrumentos",
+      "currency": "COP",
+      "tipo": "Fondo Bursátil (ETF)",
+      "sector": "ETF Renta Variable Colombia",
+      "group": "otros_instrumentos"
+    },
+    {
+      "ticker": "QGPE000",
+      "nemotecnico": "PEI",
+      "name": "Patrimonio Estrategias Inmobiliarias",
+      "isin": "",
+      "market": "Otros instrumentos",
+      "currency": "COP",
+      "tipo": "Fideicomiso Inmobiliario",
+      "sector": "Bienes Raíces / Inmuebles",
+      "group": "otros_instrumentos"
+    },
+    {
+      "ticker": "QGTIT01",
+      "nemotecnico": "TIN",
+      "name": "Titularizadora Colombiana (TIPS TIN)",
+      "isin": "",
+      "market": "Otros instrumentos",
+      "currency": "COP",
+      "tipo": "Titularización Hipotecaria",
+      "sector": "Hipotecario / Cartera",
+      "group": "otros_instrumentos"
+    }
+  ]
+}

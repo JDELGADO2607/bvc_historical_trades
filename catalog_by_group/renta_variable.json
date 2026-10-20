@@ -1,455 +1,368 @@
 {
   "group": "renta_variable",
-  "count": 50,
+  "count": 33,
   "instruments": [
     {
-      "ticker": "Q7",
-      "name": "Q7",
+      "ticker": "QFBH001",
+      "nemotecnico": "BHI",
+      "name": "BAC Holding International Corp.",
       "isin": "",
-      "market": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
       "currency": "COP",
-      "source": "websocket_subscription",
+      "tipo": "Ordinaria",
+      "sector": "Financiero / Banca Centroamérica",
       "group": "renta_variable"
     },
     {
-      "ticker": "Q700002",
-      "name": "Q700002",
+      "ticker": "QFBOG01",
+      "nemotecnico": "BOGOTA",
+      "name": "Banco de Bogotá S.A.",
       "isin": "",
-      "market": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
       "currency": "COP",
-      "source": "websocket_log",
+      "tipo": "Ordinaria",
+      "sector": "Financiero / Banca",
       "group": "renta_variable"
     },
     {
-      "ticker": "Q700003",
-      "name": "Q700003",
+      "ticker": "QFBVC01",
+      "nemotecnico": "BVC",
+      "name": "Bolsa de Valores de Colombia S.A.",
       "isin": "",
-      "market": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
       "currency": "COP",
-      "source": "websocket_log",
+      "tipo": "Ordinaria",
+      "sector": "Mercado de Capitales",
       "group": "renta_variable"
     },
     {
-      "ticker": "Q700005",
-      "name": "Q700005",
+      "ticker": "QFCEL01",
+      "nemotecnico": "CELSIA",
+      "name": "Celsia S.A. E.S.P.",
       "isin": "",
-      "market": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
       "currency": "COP",
-      "source": "websocket_log",
+      "tipo": "Ordinaria",
+      "sector": "Energía / Generación",
       "group": "renta_variable"
     },
     {
-      "ticker": "Q70000F",
-      "name": "Q70000F",
+      "ticker": "QFCEM01",
+      "nemotecnico": "CEMARGOS",
+      "name": "Cementos Argos S.A.",
       "isin": "",
-      "market": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
       "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70000H",
-      "name": "Q70000H",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70000Q",
-      "name": "Q70000Q",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70000S",
-      "name": "Q70000S",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q700010",
-      "name": "Q700010",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q700014",
-      "name": "Q700014",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70001I",
-      "name": "Q70001I",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70001M",
-      "name": "Q70001M",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70001V",
-      "name": "Q70001V",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70001X",
-      "name": "Q70001X",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q700027",
-      "name": "Q700027",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002A",
-      "name": "Q70002A",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002B",
-      "name": "Q70002B",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002G",
-      "name": "Q70002G",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002H",
-      "name": "Q70002H",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002N",
-      "name": "Q70002N",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002P",
-      "name": "Q70002P",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002S",
-      "name": "Q70002S",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002U",
-      "name": "Q70002U",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70002W",
-      "name": "Q70002W",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q700031",
-      "name": "Q700031",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q700039",
-      "name": "Q700039",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003C",
-      "name": "Q70003C",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003D",
-      "name": "Q70003D",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003F",
-      "name": "Q70003F",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003G",
-      "name": "Q70003G",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003I",
-      "name": "Q70003I",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003J",
-      "name": "Q70003J",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003K",
-      "name": "Q70003K",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003L",
-      "name": "Q70003L",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003M",
-      "name": "Q70003M",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003N",
-      "name": "Q70003N",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003O",
-      "name": "Q70003O",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003P",
-      "name": "Q70003P",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003Q",
-      "name": "Q70003Q",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003R",
-      "name": "Q70003R",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003S",
-      "name": "Q70003S",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003T",
-      "name": "Q70003T",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003U",
-      "name": "Q70003U",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003V",
-      "name": "Q70003V",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003W",
-      "name": "Q70003W",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003X",
-      "name": "Q70003X",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
-      "group": "renta_variable"
-    },
-    {
-      "ticker": "Q70003Y",
-      "name": "Q70003Y",
-      "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_log",
+      "tipo": "Ordinaria",
+      "sector": "Materiales / Cemento",
       "group": "renta_variable"
     },
     {
       "ticker": "QFCI001",
-      "name": "BOLSA DE VALORES DE COLOMBIA (BVC)",
+      "nemotecnico": "CIBEST",
+      "name": "Bancolombia S.A. (Grupo Cibest)",
       "isin": "",
-      "market": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
       "currency": "COP",
-      "source": "websocket_subscription",
+      "tipo": "Ordinaria",
+      "sector": "Financiero / Banca",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFCON02",
+      "nemotecnico": "CONCONCRET",
+      "name": "Constructora Conconcreto S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Construcción e Infraestructura",
       "group": "renta_variable"
     },
     {
       "ticker": "QFCOR02",
-      "name": "CORFICOLCF",
-      "isin": "COJ12PA00048",
-      "market": "EQTY Mod. Continua/Subasta  ",
-      "currency": "",
-      "source": "localStorage",
+      "nemotecnico": "CORFICOLCF",
+      "name": "Corporación Financiera Colombiana S.A. (Corficolombiana)",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Financiero / Corporativo",
       "group": "renta_variable"
     },
     {
       "ticker": "QFECO01",
-      "name": "ECOPETROL (Continua y Subasta)",
+      "nemotecnico": "ECOPETROL",
+      "name": "Ecopetrol S.A.",
       "isin": "",
-      "market": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
       "currency": "COP",
-      "source": "websocket_subscription",
+      "tipo": "Ordinaria",
+      "sector": "Petróleo y Gas",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFEEB01",
+      "nemotecnico": "GEB",
+      "name": "Grupo Energía Bogotá S.A. E.S.P. (GEB)",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Energía y Gas",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFENK01",
+      "nemotecnico": "ENKA",
+      "name": "Enka de Colombia S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Manufactura y Reciclaje",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFETB01",
+      "nemotecnico": "ETB",
+      "name": "Empresa de Telecomunicaciones de Bogotá S.A. E.S.P.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Telecomunicaciones",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFEXI01",
+      "nemotecnico": "EXITO",
+      "name": "Almacenes Éxito S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Comercio Minorista",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFFAB01",
+      "nemotecnico": "FABRICATO",
+      "name": "Fabricato S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Textil e Inmobiliario",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFGI001",
+      "nemotecnico": "GIBRALTAR",
+      "name": "Fondo de Inversión Inmobiliaria Gibraltar",
+      "isin": "",
+      "market": "Continua y Subasta",
+      "currency": "COP",
+      "tipo": "Fondo Inmobiliario",
+      "sector": "Inmobiliario",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFGRU01",
+      "nemotecnico": "GRUPOARGOS",
+      "name": "Grupo Argos S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Holding / Infraestructura",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFGRU02",
+      "nemotecnico": "GRUPOAVAL",
+      "name": "Grupo Aval Acciones y Valores S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Financiero / Holding",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFGRU03",
+      "nemotecnico": "GRUPOSURA",
+      "name": "Grupo de Inversiones Suramericana S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Financiero / Inversiones",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFGRU04",
+      "nemotecnico": "GRUBOLIVAR",
+      "name": "Grupo Bolívar S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Financiero / Seguros",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFISA01",
+      "nemotecnico": "ISA",
+      "name": "Interconexión Eléctrica S.A. E.S.P. (ISA)",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Energía / Transmisión",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFMIN01",
+      "nemotecnico": "MINEROS",
+      "name": "Mineros S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Minería de Oro",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFNUT01",
+      "nemotecnico": "NUTRESA",
+      "name": "Grupo Nutresa S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Alimentos procesados",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPFA01",
+      "nemotecnico": "PFAVAL",
+      "name": "Grupo Aval Acciones y Valores S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Preferencial",
+      "sector": "Financiero / Holding",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPFC02",
+      "nemotecnico": "PFCEMARGOS",
+      "name": "Cementos Argos S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Preferencial",
+      "sector": "Materiales / Cemento",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPFC03",
+      "nemotecnico": "PFCORFICOL",
+      "name": "Corporación Financiera Colombiana S.A. (Corficolombiana)",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Preferencial",
+      "sector": "Financiero / Corporativo",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPFD01",
+      "nemotecnico": "PFDAVVNDA",
+      "name": "Banco Davivienda S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Preferencial",
+      "sector": "Financiero / Banca",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPFG01",
+      "nemotecnico": "PFGRUPOARG",
+      "name": "Grupo Argos S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Preferencial",
+      "sector": "Holding / Infraestructura",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPFG02",
+      "nemotecnico": "PFGRUPSURA",
+      "name": "Grupo de Inversiones Suramericana S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Preferencial",
+      "sector": "Financiero / Inversiones",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPFV08",
+      "nemotecnico": "PFCIBEST",
+      "name": "Bancolombia S.A. (Grupo Cibest)",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Preferencial",
+      "sector": "Financiero / Banca",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPFV09",
+      "nemotecnico": "PFDAVIGRP",
+      "name": "Grupo Davivienda",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Preferencial",
+      "sector": "Financiero / Holding",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFPRO01",
+      "nemotecnico": "PROMIGAS",
+      "name": "Promigas S.A. E.S.P.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Gas Natural / Transporte",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFTER01",
+      "nemotecnico": "TERPEL",
+      "name": "Organización Terpel S.A.",
+      "isin": "",
+      "market": "Acciones: Modalidades Continua y Subasta (Filtrado)",
+      "currency": "COP",
+      "tipo": "Ordinaria",
+      "sector": "Combustibles / Distribución",
+      "group": "renta_variable"
+    },
+    {
+      "ticker": "QFTER02",
+      "nemotecnico": "TEVAICOL",
+      "name": "Títulos / Fondos TEVA BVC",
+      "isin": "",
+      "market": "Continua y Subasta",
+      "currency": "COP",
+      "tipo": "Título Colectivo",
+      "sector": "Colectivo / Especial",
       "group": "renta_variable"
     }
   ]

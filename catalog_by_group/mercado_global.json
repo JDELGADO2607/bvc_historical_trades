@@ -1,0 +1,753 @@
+{
+  "group": "mercado_global",
+  "count": 83,
+  "instruments": [
+    {
+      "ticker": "8GUSFCO",
+      "nemotecnico": "8GUSFCO",
+      "name": "USD0H27CE0410000",
+      "isin": "",
+      "market": "Derivados: Opciones sobre TRM (Filtrado)",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "8GUSHCO",
+      "nemotecnico": "8GUSHCO",
+      "name": "USD0F27PE0311000",
+      "isin": "",
+      "market": "Derivados: Opciones sobre TRM (Filtrado)",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJAAP02",
+      "nemotecnico": "AAPLCO",
+      "name": "AAPLCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJAG001",
+      "nemotecnico": "AGUASACO",
+      "name": "AGUASACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJAL001",
+      "nemotecnico": "ALICORC1CO",
+      "name": "ALICORC1CO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJAMZ02",
+      "nemotecnico": "AMDVASCCO",
+      "name": "AMDVASCCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJAMZ03",
+      "nemotecnico": "AMZNCO",
+      "name": "AMZNCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJAN001",
+      "nemotecnico": "ANDINABCO",
+      "name": "ANDINABCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJAR001",
+      "nemotecnico": "ARACO",
+      "name": "ARACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJBAC02",
+      "nemotecnico": "BAPCO",
+      "name": "BAPCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJBAC03",
+      "nemotecnico": "BACCO",
+      "name": "BACCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJBC001",
+      "nemotecnico": "BCICO",
+      "name": "BCICO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJBR003",
+      "nemotecnico": "BRKBCO",
+      "name": "BRKBCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJBS001",
+      "nemotecnico": "BSANTANDCO",
+      "name": "BSANTANDCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJBV001",
+      "nemotecnico": "BVNCO",
+      "name": "BVNCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCA001",
+      "nemotecnico": "CAPCO",
+      "name": "CAPCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCC001",
+      "nemotecnico": "CCUCO",
+      "name": "CCUCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCC002",
+      "nemotecnico": "CCO",
+      "name": "CCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCE001",
+      "nemotecnico": "CENCOSUDCO",
+      "name": "CENCOSUDCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCE002",
+      "nemotecnico": "CENCOMALCO",
+      "name": "CENCOMALCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCH001",
+      "nemotecnico": "CHILECO",
+      "name": "CHILECO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCM001",
+      "nemotecnico": "CMPCCO",
+      "name": "CMPCCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCO001",
+      "nemotecnico": "COLBUNCO",
+      "name": "COLBUNCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCO002",
+      "nemotecnico": "CONCHATOCO",
+      "name": "CONCHATOCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCO003",
+      "nemotecnico": "COPECCO",
+      "name": "COPECCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCP001",
+      "nemotecnico": "CPACASC1CO",
+      "name": "CPACASC1CO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJCV001",
+      "nemotecnico": "CVERDEC1CO",
+      "name": "CVERDEC1CO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJEC001",
+      "nemotecnico": "ECLCO",
+      "name": "ECLCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJEN001",
+      "nemotecnico": "ENELAMCO",
+      "name": "ENELAMCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJEN002",
+      "nemotecnico": "ENELCHILCO",
+      "name": "ENELCHILCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJEN003",
+      "nemotecnico": "ENTELCO",
+      "name": "ENTELCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJFA001",
+      "nemotecnico": "FALABELLCO",
+      "name": "FALABELLCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJFC001",
+      "nemotecnico": "FCO",
+      "name": "FCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJFE001",
+      "nemotecnico": "FERREYC1CO",
+      "name": "FERREYC1CO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJGE004",
+      "nemotecnico": "GECO",
+      "name": "GECO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJGE005",
+      "nemotecnico": "GEHCCO",
+      "name": "GEHCCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJGE006",
+      "nemotecnico": "GEVCO",
+      "name": "GEVCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJGO002",
+      "nemotecnico": "GOOGLCO",
+      "name": "GOOGLCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJHI001",
+      "nemotecnico": "HIVECO",
+      "name": "HIVECO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJIA001",
+      "nemotecnico": "IAMCO",
+      "name": "IAMCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJIF001",
+      "nemotecnico": "IFSCO",
+      "name": "IFSCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJIN001",
+      "nemotecnico": "INRETC1CO",
+      "name": "INRETC1CO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJIP001",
+      "nemotecnico": "IPCHBC1CO",
+      "name": "IPCHBC1CO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJIT001",
+      "nemotecnico": "ITAUCLCO",
+      "name": "ITAUCLCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJE001",
+      "nemotecnico": "JEPQCO",
+      "name": "JEPQCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJE002",
+      "nemotecnico": "JEQACO",
+      "name": "JEQACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJE003",
+      "nemotecnico": "JEPICO",
+      "name": "JEPICO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJE004",
+      "nemotecnico": "JEIACO",
+      "name": "JEIACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJM001",
+      "nemotecnico": "JMBACO",
+      "name": "JMBACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJNJ02",
+      "nemotecnico": "JNJCO",
+      "name": "JNJCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJPM02",
+      "nemotecnico": "JPMCO",
+      "name": "JPMCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJPM03",
+      "nemotecnico": "JPSACO",
+      "name": "JPSACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJPM04",
+      "nemotecnico": "JPSTCO",
+      "name": "JPSTCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJPM05",
+      "nemotecnico": "JPHYCO",
+      "name": "JPHYCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJR001",
+      "nemotecnico": "JREECO",
+      "name": "JREECO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJR002",
+      "nemotecnico": "JREGCO",
+      "name": "JREGCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJR003",
+      "nemotecnico": "JREUCO",
+      "name": "JREUCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJR004",
+      "nemotecnico": "JREMCO",
+      "name": "JREMCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJR005",
+      "nemotecnico": "JREACO",
+      "name": "JREACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJR006",
+      "nemotecnico": "JREJCO",
+      "name": "JREJCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJJR007",
+      "nemotecnico": "JRAWCO",
+      "name": "JRAWCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJKO001",
+      "nemotecnico": "KOCO",
+      "name": "KOCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJLT001",
+      "nemotecnico": "LTMCO",
+      "name": "LTMCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJMA001",
+      "nemotecnico": "MALLPLAZCO",
+      "name": "MALLPLAZCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJME002",
+      "nemotecnico": "METACO",
+      "name": "METACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJMS001",
+      "nemotecnico": "MSFTCO",
+      "name": "MSFTCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJMX001",
+      "nemotecnico": "MXWOCO",
+      "name": "MXWOCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJNK002",
+      "nemotecnico": "NKECO",
+      "name": "NKECO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJNU002",
+      "nemotecnico": "NUAMCO",
+      "name": "NUAMCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJNU003",
+      "nemotecnico": "NUCO",
+      "name": "NUCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJNV002",
+      "nemotecnico": "NVDACO",
+      "name": "NVDACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJPA001",
+      "nemotecnico": "PARAUCOCO",
+      "name": "PARAUCOCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJPB002",
+      "nemotecnico": "PBRCO",
+      "name": "PBRCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJPFE02",
+      "nemotecnico": "PFECO",
+      "name": "PFECO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJQU001",
+      "nemotecnico": "QUINENCOCO",
+      "name": "QUINENCOCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJRI001",
+      "nemotecnico": "RIPLEYCO",
+      "name": "RIPLEYCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJSC001",
+      "nemotecnico": "SCCOCO",
+      "name": "SCCOCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJSM001",
+      "nemotecnico": "SMUCO",
+      "name": "SMUCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJSQ001",
+      "nemotecnico": "SQMBCO",
+      "name": "SQMBCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJTS001",
+      "nemotecnico": "TSLACO",
+      "name": "TSLACO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJUB002",
+      "nemotecnico": "UBERCO",
+      "name": "UBERCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJVA001",
+      "nemotecnico": "VAPORESCO",
+      "name": "VAPORESCO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    },
+    {
+      "ticker": "QJVO001",
+      "nemotecnico": "VOLCABC1CO",
+      "name": "VOLCABC1CO",
+      "isin": "",
+      "market": "Global acciones",
+      "currency": "COP",
+      "group": "mercado_global"
+    }
+  ]
+}

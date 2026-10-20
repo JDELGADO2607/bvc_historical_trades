@@ -1,14 +1,68 @@
 {
   "group": "indices",
-  "count": 1,
+  "count": 7,
   "instruments": [
     {
-      "ticker": "I4IIBR",
-      "name": "INDICADOR BANCARIO DE REFERENCIA (IBR)",
+      "ticker": "I4CTCP",
+      "nemotecnico": "COLTES CP",
+      "name": "COLTES CP",
       "isin": "",
-      "market": "",
+      "market": "Renta Fija: Indices",
       "currency": "COP",
-      "source": "websocket_log",
+      "group": "indices"
+    },
+    {
+      "ticker": "I4CTES",
+      "nemotecnico": "COLTES",
+      "name": "COLTES",
+      "isin": "",
+      "market": "Renta Fija: Indices",
+      "currency": "COP",
+      "group": "indices"
+    },
+    {
+      "ticker": "I4CTLP",
+      "nemotecnico": "COLTES LP",
+      "name": "COLTES LP",
+      "isin": "",
+      "market": "Renta Fija: Indices",
+      "currency": "COP",
+      "group": "indices"
+    },
+    {
+      "ticker": "I4CUVR",
+      "nemotecnico": "COLTES UVR",
+      "name": "COLTES UVR",
+      "isin": "",
+      "market": "Renta Fija: Indices",
+      "currency": "COP",
+      "group": "indices"
+    },
+    {
+      "ticker": "I4CVCP",
+      "nemotecnico": "COLTES UVRCP",
+      "name": "COLTES UVRCP",
+      "isin": "",
+      "market": "Renta Fija: Indices",
+      "currency": "COP",
+      "group": "indices"
+    },
+    {
+      "ticker": "I4CVLP",
+      "nemotecnico": "COLTES UVRLP",
+      "name": "COLTES UVRLP",
+      "isin": "",
+      "market": "Renta Fija: Indices",
+      "currency": "COP",
+      "group": "indices"
+    },
+    {
+      "ticker": "I4IIBR",
+      "nemotecnico": "COLIBR",
+      "name": "COLIBR",
+      "isin": "",
+      "market": "Renta Fija: Indices",
+      "currency": "COP",
       "group": "indices"
     }
   ]

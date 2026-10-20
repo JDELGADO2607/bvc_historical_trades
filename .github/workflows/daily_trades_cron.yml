@@ -2,9 +2,9 @@ name: BVC Daily Trades Extraction
 
 on:
   schedule:
-    # 00:15 UTC = 19:15 COT (7:15 PM Colombia Time).
-    # Days 2-6 in UTC (Tue-Sat) correspond to Mon-Fri in Colombia Time (UTC-5).
-    - cron: '15 0 * * 2-6'
+    # 23:30 UTC = 18:30 COT (6:30 PM Colombia Time).
+    # Runs Monday to Friday (days 1-5 in UTC).
+    - cron: '30 23 * * 1-5'
   workflow_dispatch: # Allows manual trigger from GitHub web UI
 
 jobs:

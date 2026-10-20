@@ -1,0 +1,681 @@
+{
+  "group": "derivados_futuros",
+  "count": 75,
+  "instruments": [
+    {
+      "ticker": "8B2701S",
+      "nemotecnico": "T27X26F",
+      "name": "T27X26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B2801K",
+      "nemotecnico": "T28Z26F",
+      "name": "T28Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B2801S",
+      "nemotecnico": "T28X26F",
+      "name": "T28X26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B3001K",
+      "nemotecnico": "T30Z26F",
+      "name": "T30Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B3001S",
+      "nemotecnico": "T30X26F",
+      "name": "T30X26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B3101M",
+      "nemotecnico": "T31Z26F",
+      "name": "T31Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B3101U",
+      "nemotecnico": "T31X26F",
+      "name": "T31X26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B33011",
+      "nemotecnico": "T33Z26F",
+      "name": "T33Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B33019",
+      "nemotecnico": "T33X26F",
+      "name": "T33X26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B3601L",
+      "nemotecnico": "T36Z26F",
+      "name": "T36Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B4201B",
+      "nemotecnico": "T42Z26F",
+      "name": "T42Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B4201J",
+      "nemotecnico": "T42X26F",
+      "name": "T42X26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B4600L",
+      "nemotecnico": "T46Z26F",
+      "name": "T46Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B5001K",
+      "nemotecnico": "T50Z26F",
+      "name": "T50Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8B5001S",
+      "nemotecnico": "T50X26F",
+      "name": "T50X26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8BB3005",
+      "nemotecnico": "B30X26F",
+      "name": "B30X26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8BB3006",
+      "nemotecnico": "B30Z26F",
+      "name": "B30Z26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8BIA99H",
+      "nemotecnico": "I12H99F",
+      "name": "I12H99F",
+      "isin": "",
+      "market": "Futuros: Futuros AFIR - Futuros sobre Tasa de Interés y TES - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DRX01C",
+      "nemotecnico": "TRXZ26F",
+      "name": "TRXZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DRX01F",
+      "nemotecnico": "TRXH27F",
+      "name": "TRXH27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DRX01H",
+      "nemotecnico": "TRXX26F",
+      "name": "TRXX26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DRX01I",
+      "nemotecnico": "TRXM27F",
+      "name": "TRXM27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DRX01J",
+      "nemotecnico": "TRXF27F",
+      "name": "TRXF27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DRX01K",
+      "nemotecnico": "TRXG27F",
+      "name": "TRXG27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DRX01L",
+      "nemotecnico": "TRXU27F",
+      "name": "TRXU27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DTR229",
+      "nemotecnico": "TRMZ26F",
+      "name": "TRMZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DTR22C",
+      "nemotecnico": "TRMH27F",
+      "name": "TRMH27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DTR22E",
+      "nemotecnico": "TRMX26F",
+      "name": "TRMX26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DTR22F",
+      "nemotecnico": "TRMM27F",
+      "name": "TRMM27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DTR22G",
+      "nemotecnico": "TRMF27F",
+      "name": "TRMF27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "8DTR22H",
+      "nemotecnico": "TRMG27F",
+      "name": "TRMG27F",
+      "isin": "",
+      "market": "Futuros: Futuros AFFX - Futuros sobre Dólar - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMBB00O",
+      "nemotecnico": "BBOZ26F",
+      "name": "BBOZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMCF21B",
+      "nemotecnico": "CFCZ26F",
+      "name": "CFCZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMCL21B",
+      "nemotecnico": "CLSZ26F",
+      "name": "CLSZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMCS01O",
+      "nemotecnico": "COSZ26F",
+      "name": "COSZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMDE21B",
+      "nemotecnico": "DEBZ26F",
+      "name": "DEBZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMEC21B",
+      "nemotecnico": "ECOZ26F",
+      "name": "ECOZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMEX004",
+      "nemotecnico": "EXIZ26F",
+      "name": "EXIZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMGA00O",
+      "nemotecnico": "GRAZ26F",
+      "name": "GRAZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMGS00O",
+      "nemotecnico": "GRUZ26F",
+      "name": "GRUZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMIS21B",
+      "nemotecnico": "ISAZ26F",
+      "name": "ISAZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMPA00P",
+      "nemotecnico": "PFAZ26F",
+      "name": "PFAZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMPG21B",
+      "nemotecnico": "PGAZ26F",
+      "name": "PGAZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QMPS00O",
+      "nemotecnico": "PFGZ26F",
+      "name": "PFGZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros AFEQ - Futuros sobre Índices y Acciones - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOEL006",
+      "nemotecnico": "ELB2027F",
+      "name": "ELB2027F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOEL21Z",
+      "nemotecnico": "ELB2028F",
+      "name": "ELB2028F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOEL22B",
+      "nemotecnico": "ELB2029F",
+      "name": "ELB2029F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOEL22N",
+      "nemotecnico": "ELB2030F",
+      "name": "ELB2030F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE006",
+      "nemotecnico": "ELMF27F",
+      "name": "ELMF27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE01N",
+      "nemotecnico": "ELMV26F",
+      "name": "ELMV26F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE01U",
+      "nemotecnico": "ELMX26F",
+      "name": "ELMX26F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE01W",
+      "nemotecnico": "ELMG27F",
+      "name": "ELMG27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE021",
+      "nemotecnico": "ELMZ26F",
+      "name": "ELMZ26F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE02A",
+      "nemotecnico": "ELMH27F",
+      "name": "ELMH27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE02H",
+      "nemotecnico": "ELMJ27F",
+      "name": "ELMJ27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE02O",
+      "nemotecnico": "ELMK27F",
+      "name": "ELMK27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE02V",
+      "nemotecnico": "ELMM27F",
+      "name": "ELMM27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE032",
+      "nemotecnico": "ELMN27F",
+      "name": "ELMN27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE039",
+      "nemotecnico": "ELMQ27F",
+      "name": "ELMQ27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE03G",
+      "nemotecnico": "ELMU27F",
+      "name": "ELMU27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE03N",
+      "nemotecnico": "ELMV27F",
+      "name": "ELMV27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE03U",
+      "nemotecnico": "ELMX27F",
+      "name": "ELMX27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE21Y",
+      "nemotecnico": "ELMZ27F",
+      "name": "ELMZ27F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE21Z",
+      "nemotecnico": "ELMF28F",
+      "name": "ELMF28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE220",
+      "nemotecnico": "ELMG28F",
+      "name": "ELMG28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE221",
+      "nemotecnico": "ELMH28F",
+      "name": "ELMH28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE222",
+      "nemotecnico": "ELMJ28F",
+      "name": "ELMJ28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE223",
+      "nemotecnico": "ELMK28F",
+      "name": "ELMK28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE224",
+      "nemotecnico": "ELMM28F",
+      "name": "ELMM28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE225",
+      "nemotecnico": "ELMN28F",
+      "name": "ELMN28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE226",
+      "nemotecnico": "ELMQ28F",
+      "name": "ELMQ28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE227",
+      "nemotecnico": "ELMU28F",
+      "name": "ELMU28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE228",
+      "nemotecnico": "ELMV28F",
+      "name": "ELMV28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE229",
+      "nemotecnico": "ELMX28F",
+      "name": "ELMX28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    },
+    {
+      "ticker": "QOFE22A",
+      "nemotecnico": "ELMZ28F",
+      "name": "ELMZ28F",
+      "isin": "",
+      "market": "Futuros: Futuros DRVX - Futuros sobre Energía - (Filtrado)",
+      "currency": "COP",
+      "group": "derivados_futuros"
+    }
+  ]
+}

@@ -4,20 +4,20 @@
   "instruments": [
     {
       "ticker": "QVUSDSP",
-      "name": "DOLAR SET-FX SPOT (USD/COP)",
+      "nemotecnico": "USD SPOT",
+      "name": "USD SPOT",
       "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_subscription",
+      "market": "SET-FX: SPOT",
+      "currency": "USD",
       "group": "divisas"
     },
     {
       "ticker": "QXUSDND",
-      "name": "DOLAR SET-FX NEXT DAY",
+      "nemotecnico": "USD NEXT DAY (T1-T3)",
+      "name": "USD NEXT DAY (T1-T3)",
       "isin": "",
-      "market": "",
-      "currency": "COP",
-      "source": "websocket_subscription",
+      "market": "SET-FX: Next Day",
+      "currency": "USD",
       "group": "divisas"
     }
   ]

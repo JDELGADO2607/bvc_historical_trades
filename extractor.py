@@ -165,7 +165,7 @@ def extract_day(
     session_id: str,
     tickers: List[str],
     date_str: str,
-    max_workers: int = 10
+    max_workers: int = 20
 ) -> List[dict]:
     """
     Concurrently extracts trades for all requested tickers for a specific date (YYYYMMDD).
@@ -259,16 +259,30 @@ def load_tickers(catalog_path: str = "catalog.json", group: Optional[str] = None
     with open(catalog_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    if group and group != "all":
-        group_items = data.get("groups", {}).get(group, [])
-        if not group_items:
-            # Check catalog_by_group/
-            group_file = os.path.join("catalog_by_group", f"{group}.json")
-            if os.path.exists(group_file):
-                with open(group_file, "r", encoding="utf-8") as gf:
-                    g_data = json.load(gf)
-                    return [it["ticker"] for it in g_data.get("instruments", [])]
-        return [it["ticker"] for it in group_items]
+    if not group or group == "core":
+        # Core active universe: equities, ETFs, FX, fixed income, indices, futures
+        core_groups = ["renta_variable", "otros_instrumentos", "divisas", "renta_fija", "indices", "derivados_futuros"]
+        core_tickers = []
+        for cg in core_groups:
+            group_items = data.get("groups", {}).get(cg, [])
+            core_tickers.extend([it["ticker"] for it in group_items])
+        return list(dict.fromkeys(core_tickers))
+
+    if group != "all":
+        # Handle comma-separated groups
+        requested_groups = [g.strip() for g in group.split(",") if g.strip()]
+        selected_tickers = []
+        for g_name in requested_groups:
+            group_items = data.get("groups", {}).get(g_name, [])
+            if not group_items:
+                group_file = os.path.join("catalog_by_group", f"{g_name}.json")
+                if os.path.exists(group_file):
+                    with open(group_file, "r", encoding="utf-8") as gf:
+                        g_data = json.load(gf)
+                        group_items = g_data.get("instruments", [])
+            selected_tickers.extend([it["ticker"] for it in group_items])
+        if selected_tickers:
+            return list(dict.fromkeys(selected_tickers))
 
     return list(data.get("tickers", {}).keys())
 
@@ -284,7 +298,12 @@ def main():
     parser.add_argument("--backfill", action="store_true", help="Extract the full 90-day retention window (~Jul 14 to today)")
     parser.add_argument("--start", help="Custom start date (YYYY-MM-DD)")
     parser.add_argument("--end", help="Custom end date (YYYY-MM-DD)")
-    parser.add_argument("--group", choices=["renta_variable", "renta_fija", "divisas", "indices", "all"], default="all")
+    parser.add_argument(
+        "--group",
+        default="core",
+        help="Market group to extract: 'core' (default, 153 liquid titles), 'renta_variable', 'otros_instrumentos', 'mercado_global', 'divisas', 'renta_fija', 'derivados_futuros', 'derivados_opciones', 'indices', 'all', or comma-separated"
+    )
+    parser.add_argument("--workers", type=int, default=20, help="Concurrent HTTP worker threads (default: 20)")
     parser.add_argument("--format", choices=["parquet", "csv", "json"], default="parquet")
     parser.add_argument("--out-dir", default=DATA_DIR, help="Destination directory for output files")
     parser.add_argument("--push-supabase", action="store_true", help="Upload data to Supabase after extraction")
@@ -344,7 +363,7 @@ def main():
         d_str = dt.strftime("%Y%m%d")
         d_dashed = dt.strftime("%Y-%m-%d")
 
-        trades = extract_day(session_id, tickers, d_str)
+        trades = extract_day(session_id, tickers, d_str, max_workers=args.workers)
         if not trades:
             logger.info(f"Skipping file generation for {d_dashed} (0 trades).")
             continue
