@@ -361,18 +361,28 @@ def main():
 
     # 4. Extraction loop
     total_extracted_trades = 0
-    extracted_files = []
+    total_days = len(dates_to_extract)
+    processed_days = 0
 
-    for dt in dates_to_extract:
+    for day_idx, dt in enumerate(dates_to_extract, start=1):
         d_str = dt.strftime("%Y%m%d")
         d_dashed = dt.strftime("%Y-%m-%d")
 
+        # Refresh session token every 10 days to prevent expiration during large backfills
+        if day_idx > 1 and day_idx % 10 == 0:
+            try:
+                session_id = authenticate()
+            except Exception as e:
+                logger.warning(f"Session re-authentication warning: {e}")
+
+        logger.info(f"[{day_idx}/{total_days}] Extracting date {d_dashed}...")
         trades = extract_day(session_id, tickers, d_str, max_workers=args.workers)
         if not trades:
-            logger.info(f"Skipping file generation for {d_dashed} (0 trades).")
+            logger.info(f"Skipping {d_dashed} (0 trades / holiday / market closed).")
             continue
 
         total_extracted_trades += len(trades)
+        processed_days += 1
         out_filename = f"bvc_trades_{d_dashed}.{args.format}"
         out_filepath = os.path.join(args.out_dir, out_filename)
 
@@ -383,23 +393,18 @@ def main():
         elif args.format == "json":
             save_to_json(trades, out_filepath)
 
-        extracted_files.append((d_dashed, out_filepath, trades))
+        # Upload to Supabase immediately per day (atomic & memory-safe)
+        if args.push_supabase:
+            try:
+                import supabase_sync
+                logger.info(f"Pushing {d_dashed} trades to Supabase...")
+                supabase_sync.upload_trades(trades, out_filepath)
+            except Exception as e:
+                logger.error(f"Error pushing {d_dashed} to Supabase: {e}")
 
     logger.info(f"\n============================================================")
-    logger.info(f"JOB COMPLETE: Extracted {total_extracted_trades:,} trades across {len(dates_to_extract)} days.")
+    logger.info(f"BACKFILL COMPLETE: Extracted {total_extracted_trades:,} trades across {processed_days}/{total_days} active trading days.")
     logger.info(f"============================================================")
-
-    # 5. Optional Supabase upload
-    if args.push_supabase:
-        try:
-            import supabase_sync
-            for d_dashed, filepath, trades in extracted_files:
-                logger.info(f"Pushing {d_dashed} trades to Supabase...")
-                supabase_sync.upload_trades(trades, filepath)
-        except ImportError:
-            logger.warning("supabase_sync module not found or missing credentials.")
-        except Exception as e:
-            logger.error(f"Failed to upload to Supabase: {e}")
 
 
 if __name__ == "__main__":
