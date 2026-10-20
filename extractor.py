@@ -144,9 +144,13 @@ def fetch_ticker_trades(
                 # Format time to HH:MM:SS
                 formatted_time = f"{raw_time[:2]}:{raw_time[2:4]}:{raw_time[4:6]}" if len(raw_time) == 6 else raw_time
 
+                trade_ticker = t.get("MV", ticker).strip()
+                raw_trade_id = str(t.get("D3985", "")).strip()
+                composite_trade_id = f"{trade_ticker}_{raw_trade_id}" if raw_trade_id else f"{trade_ticker}_{formatted_date}_{len(normalized)+1}"
+
                 normalized.append({
-                    "trade_id": str(t.get("D3985", "")),
-                    "ticker": t.get("MV", ticker).strip(),
+                    "trade_id": composite_trade_id,
+                    "ticker": trade_ticker,
                     "trade_date": formatted_date,
                     "trade_time": formatted_time,
                     "price": float(t.get("D3700", 0.0) or 0.0),

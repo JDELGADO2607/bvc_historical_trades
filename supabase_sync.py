@@ -85,13 +85,15 @@ def insert_trades_table(trades: List[dict], batch_size: int = 500) -> int:
     # Batch insert to avoid payload limits
     for i in range(0, len(trades), batch_size):
         chunk = trades[i:i + batch_size]
-        body = json.dumps(chunk).encode("utf-8")
+        # Deduplicate by trade_id within the chunk to prevent Postgres 21000 ON CONFLICT error
+        deduped_chunk = list({r["trade_id"]: r for r in chunk}.values())
+        body = json.dumps(deduped_chunk).encode("utf-8")
         req = urllib.request.Request(endpoint, data=body, headers=headers, method="POST")
 
         try:
             with urllib.request.urlopen(req, context=ctx, timeout=15.0) as resp:
                 if resp.status in (200, 201):
-                    inserted_count += len(chunk)
+                    inserted_count += len(deduped_chunk)
         except Exception as e:
             logger.error(f"Failed to insert batch {i}..{i + len(chunk)} to Supabase: {e}")
 
