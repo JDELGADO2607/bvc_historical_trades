@@ -336,10 +336,10 @@ def main():
 
     elif args.date:
         clean = args.date.replace("-", "")
-        dates_to_extract = [datetime.strptime(clean, "%Y%m%d")]
+        dates_to_extract = [datetime.strptime(clean, "%Y%m%d").replace(tzinfo=COLOMBIA_TZ)]
 
     elif args.backfill:
-        start_dt = datetime.strptime(RETENTION_START_DATE, "%Y%m%d")
+        start_dt = datetime.strptime(RETENTION_START_DATE, "%Y%m%d").replace(tzinfo=COLOMBIA_TZ)
         curr = start_dt
         while curr <= today:
             if curr.weekday() not in (5, 6):  # Skip weekends
@@ -348,8 +348,8 @@ def main():
         logger.info(f"Backfill mode: Queued {len(dates_to_extract)} trading days ({start_dt.strftime('%Y-%m-%d')} to {today.strftime('%Y-%m-%d')})")
 
     elif args.start and args.end:
-        start_dt = datetime.strptime(args.start.replace("-", ""), "%Y%m%d")
-        end_dt = datetime.strptime(args.end.replace("-", ""), "%Y%m%d")
+        start_dt = datetime.strptime(args.start.replace("-", ""), "%Y%m%d").replace(tzinfo=COLOMBIA_TZ)
+        end_dt = datetime.strptime(args.end.replace("-", ""), "%Y%m%d").replace(tzinfo=COLOMBIA_TZ)
         curr = start_dt
         while curr <= end_dt:
             if curr.weekday() not in (5, 6):
